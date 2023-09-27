@@ -1,0 +1,46 @@
+#signup-4 {
+  margin-top: 125px !important;
+}
+
+#signup-tab-4 {
+  padding: 40px 111px;
+}
+
+.box-form-4 {
+  margin: auto;
+}
+
+.confirm {
+  border: 2px solid #b2b2b2;
+  border-radius: 10px;
+}
+
+/* .btnDiv {
+  margin-right: -111px !important;
+} */
+
+@media only screen and (max-width: 1199px) {
+  #signup-tab-4 {
+    padding: 40px;
+  }
+
+  .btnDiv {
+    margin-right: -40px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .btnDiv {
+    margin-right: -32px !important;
+    margin-left: -32px !important;
+  }
+
+  #signup-tab-4 {
+    padding: 40px 30px;
+    margin-top: -150px !important;
+  }
+}
+
+
+
+
