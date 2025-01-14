@@ -1,0 +1,23 @@
+h1,h2,h3,h4,h5,h6{
+    color:#3d2121;
+}
+.about-banner{
+    background-image: url('../../public/images/About-us-img.jpg');
+    height: 25em;
+    width: 100%;
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    image-rendering: -webkit-optimize-contrast;
+    /* height: 13em; */
+}
+@media only screen and (max-width: 769px) {
+  .about-banner{  
+    height: 20em;
+}
+}
+@media only screen and (max-width: 426px) {
+  .about-banner{  
+    height: 13em;
+}
+}

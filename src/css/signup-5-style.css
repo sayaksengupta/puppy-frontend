@@ -1,0 +1,71 @@
+
+@media only screen and (max-width: 1199px) {
+  .btnDiv {
+    margin-right: -50px !important;
+    margin-left: -26px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #st-check {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .btnDiv {
+    margin-right: -36px !important;
+    margin-left: -37px !important;
+  }
+
+  #signup-tab-4 {
+    padding: 176px 36px 70px 36px;
+    margin-top: -150px !important;
+  }
+
+  #btnDiv2 {
+    margin-right: -113px;
+    margin-left: -111px;
+    margin-bottom: -71px;
+    background-color: rgba(231, 231, 231, 255);
+    padding: 10px;
+    border-radius: 0px 0px 21px;
+  }
+}
+
+label {
+  font-size: 1.1em;
+}
+
+:focus {
+  outline: none;
+}
+
+input[type="radio"] {
+  appearance: none;
+  height: 1.5em;
+  width: 1.5em;
+  padding: 2px;
+  border: 3px solid #3d2121;
+  border-radius: 50%;
+  background-color: #3d2121;
+  background-clip: content-box;
+}
+
+input[type="radio"]:checked {
+  background-color: #3d2121;
+  border: 3px solid green;
+  background-clip: content-box;
+}
+
+.button-check {
+  background: #cabfd1;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#st-check {
+  width: 90%;
+}

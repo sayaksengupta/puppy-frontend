@@ -1,0 +1,162 @@
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cover_aera img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+a {
+  text-decoration: none;
+}
+.cover_aera {
+  position: relative;
+}
+label.edit_cover {
+  color: #fff;
+  cursor: pointer;
+  background: #361913;
+  display: inline-block;
+  padding: 10px 15px;
+  position: absolute;
+  right: 11%;
+  bottom: 27px;
+  border-radius: 5px;
+}
+.profile_img {
+  max-width: 400px;
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: -80px auto 0;
+  text-align: center;
+  z-index: 9;
+  position: relative;
+}
+
+.cat {
+  margin: 18px 18px;
+  border-radius: 55px;
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  float: left;
+}
+
+.cat label {
+  float: left;
+  line-height: 3em;
+  width: 13em;
+  height: 3em;
+}
+
+.cat label span {
+  text-align: center;
+  display: block;
+}
+
+.cat label input {
+  position: absolute;
+  display: none;
+  color: #fff !important;
+}
+/* selects all of the text within the input element and changes the color of the text */
+.cat label input + span {
+  color: #fff;
+}
+
+/* This will declare how a selected input will look giving generic properties */
+.cat input:checked + span {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+.cat input:checked + span {
+  background-color: #000;
+}
+
+form.form_profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.creat_profile {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.creat_profile h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 30px 0 20px;
+}
+
+.single_form.cl-2 {
+  width: 50%;
+  padding: 0 15px;
+  text-align: center;
+  margin: 0 0 60px;
+}
+
+.single_form.cl-3 {
+  width: 33.3%;
+  padding: 0 15px;
+}
+
+.dog_bread {
+  width: 100%;
+  padding: 25px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.single_form.cl-2 input {
+}
+
+form.form_profile input[type="text"] {
+  width: 65%;
+  height: 43px;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form_profile select {
+  width: 65%;
+  height: 43px;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.single_form.cl-3 {
+  margin-bottom: 60px;
+}
+p.info {
+  width: 100%;
+  text-align: right;
+  margin-right: 2px;
+}
+
+.button_holder {
+  width: 100%;
+  text-align: center;
+}
+
+.button_holder input {
+  border-radius: 5px;
+  background: #3e2121;
+  border: 0px solid;
+  color: #fff;
+  padding: 12px 45px;
+  font-size: 18px;
+}
